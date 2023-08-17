@@ -1,0 +1,19 @@
+import java.util.HashMap;
+import java.util.Map;
+
+public class ContainsKeyExample {
+
+    public static void main(String[] args) {
+        // Creating a HashMap
+        Map<String, Integer> scores = new HashMap<>();
+
+        // Adding key-value pairs to the map
+        scores.put("Alice", 90);
+        scores.put("Bob", 85);
+        scores.put("Charlie", 78);
+
+        // Checking if specific keys exist in the map
+        System.out.println("Does 'Alice' exist? " + scores.containsKey("Alice"));
+        System.out.println("Does 'Eve' exist? " + scores.containsKey("Eve"));
+    }
+}
