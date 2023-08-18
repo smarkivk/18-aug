@@ -1,0 +1,14 @@
+public class TypeConversionExample {
+
+    public static void main(String[] args) {
+        // Implicit (Automatic) Type Conversion
+        int intValue = 100;
+        double doubleValue = intValue; // int to double
+        System.out.println("Implicit Type Conversion: " + doubleValue);
+
+        // Explicit (Manual) Type Conversion
+        double doubleNum = 123.45;
+        int intNum = (int) doubleNum; // double to int (explicit cast)
+        System.out.println("Explicit Type Conversion: " + intNum);
+    }
+}
